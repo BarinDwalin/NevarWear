@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar><!--hideBackButton-->
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>Мой гардероб</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-grid>
+  <ion-row *ngFor="let couplePage of couplePages">
+    <ion-col width-50>
+        <ion-card (click)="openPage(couplePage.leftPage)">
+            <img src="{{couplePage.leftPage.img}}"/>
+            <div class="card-title">{{couplePage.leftPage.name}}</div>
+        </ion-card>
+    </ion-col>
+    <ion-col width-50>
+        <ion-card (click)="openPage(couplePage.rightPage)">
+            <img src="{{couplePage.rightPage.img}}"/>
+            <div class="card-title">{{couplePage.rightPage.name}}</div>
+        </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

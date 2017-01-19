@@ -1,0 +1,17 @@
+[
+    { "id": 0, "categoryID": 14, "name": "Пальто самое большое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#лето #summer", "like": true, "favorite": true },
+    { "id": 1, "categoryID": 14, "name": "Пальто так себе ", "img": "assets/img/wardrobe-addon.jpg", "tags": "#СуперДлинныйКотячийТег #many other shit" },
+    { "id": 2, "categoryID": 14, "name": "Пальто немалое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "" },
+    { "id": 3, "categoryID": 9, "name": "Пальто самое большое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#лето #summer", "like": true, "favorite": true },
+    { "id": 4, "categoryID": 9, "name": "Пальто так себе ", "img": "assets/img/wardrobe-addon.jpg", "tags": "#СуперДлинныйКотячийТег #many other shit" },
+    { "id": 5, "categoryID": 9, "name": "Пальто немалое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "" },
+    { "id": 3, "categoryID": 9, "name": "Пальто самое большое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#лето #summer", "like": true, "favorite": true },
+    { "id": 4, "categoryID": 9, "name": "Пальто так себе ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#СуперДлинныйКотячийТег #many other shit" },
+    { "id": 5, "categoryID": 9, "name": "Пальто немалое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "" },
+    { "id": 3, "categoryID": 9, "name": "Пальто самое большое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#лето #summer", "like": true, "favorite": true },
+    { "id": 4, "categoryID": 9, "name": "Пальто так себе ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#СуперДлинныйКотячийТег #many other shit" },
+    { "id": 5, "categoryID": 9, "name": "Пальто немалое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "" },
+    { "id": 3, "categoryID": 9, "name": "Пальто самое большое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#лето #summer", "like": true, "favorite": true },
+    { "id": 4, "categoryID": 9, "name": "Пальто так себе ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "#СуперДлинныйКотячийТег #many other shit" },
+    { "id": 5, "categoryID": 9, "name": "Пальто немалое ", "img": "assets/img/wardrobe-my-wardrobe.jpg", "tags": "" }
+]

@@ -1,0 +1,24 @@
+[
+    { "id": 0, "parentID": null, "name": "Верхняя одежда", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 1, "parentID": null, "name": "Нижняя одежда", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 2, "parentID": null, "name": "Топ", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 3, "parentID": null, "name": "Боттом", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 4, "parentID": null, "name": "Обувь", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 5, "parentID": null, "name": "Белье", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 6, "parentID": null, "name": "Аксессуары", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 7, "parentID": null, "name": "Показать всё", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    
+    { "id": 8, "parentID": 0, "name": "Пальто", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 9, "parentID": 0, "name": "Куртки", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 10, "parentID": 0, "name": "Плащи", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 11, "parentID": 0, "name": "Ветровки", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 12, "parentID": 0, "name": "Пуховики", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 13, "parentID": 0, "name": "Дубленки", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 13, "parentID": 0, "name": "Плащи", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 13, "parentID": 0, "name": "Ветровки", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 13, "parentID": 0, "name": "Пуховики", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 13, "parentID": 0, "name": "Дубленки", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 14, "parentID": 8, "name": "Пальто большое", "img": "assets/img/wardrobe-my-wardrobe.jpg" },
+    { "id": 15, "parentID": 8, "name": "Пальто малое", "img": "assets/img/wardrobe-my-wardrobe.jpg" }
+    
+]
