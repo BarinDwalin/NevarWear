@@ -10,7 +10,7 @@
       <!--<ion-icon name="star" isActive="{{ thing.favorite }}" (click)="favorite(thing)"></ion-icon>-->
     </ion-item>
 
-    <img src="{{thing.img}}">
+    <img src="{{thing.img}}" (click)="openPage()">
 
     <ion-card-content *ngIf="thing.tags">
       <p>{{thing.tags}}</p>

@@ -9,13 +9,13 @@ import { NavController, NavParams } from 'ionic-angular';
 */
 @Component({
   selector: 'page-todo',
-  templateUrl: 'todo.html'
+  templateUrl: 'todo.html',
 })
 export class TodoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
-  ionViewDidLoad() {
+  private ionViewDidLoad() {
     console.log('ionViewDidLoad TodoPage');
   }
 

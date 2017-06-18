@@ -7,7 +7,7 @@ import { AppService } from '../../../../app/app.service';
 import { ShopPage } from '../../../shop/shop.page';
 import { WardrobeDraftOutfitPage } from '../../wardrobe';
 
-import { IThing } from '../../../../app/model/thing';
+import { IThing } from '../../../../app/model';
 
 @Component({
   selector: 'page-thing-viewer',

@@ -1,29 +1,31 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { Platform, MenuController, Nav } from 'ionic-angular';
+import { MenuController, Nav, Platform } from 'ionic-angular';
 
-import { StatusBar, Splashscreen } from 'ionic-native'; 
+import { Splashscreen, StatusBar } from 'ionic-native';
 
 import { AppService } from './app.service';
 
-import { DressMeUpPage } from '../pages/dress-me-up/dress-me-up';
-import { ProfilePage } from '../pages/profile/profile';
-import { MarketPage } from '../pages/market/market';
-import { ShopPage } from '../pages/shop/shop';
-import { WardrobePage } from '../pages/wardrobe/wardrobe';
+import { DressMeUpPage,
+  MarketPage,
+  ProfilePage,
+  ShopPage,
+  WardrobePage
+} from '../pages/pages';
+
 import { ListPage } from '../pages/list/list';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
 })
 export class MyApp {
-  @ViewChild(Nav) nav: Nav;
+  @ViewChild(Nav) private nav: Nav;
 
   public isTabletOrIpad: boolean;
 
   // make ProfilePage the root (or first) page
-  rootPage: any = WardrobePage;//ProfilePage;
-  pages: Array<{title: string, component: any}>;
+  private rootPage: any = WardrobePage; // ProfilePage;
+  private pages: Array<{title: string, component: any}>;
 
   constructor(
     public platform: Platform,
@@ -39,11 +41,11 @@ export class MyApp {
       { title: 'Гардероб', component: WardrobePage },
       { title: 'Магазин', component: ShopPage },
       { title: 'Маркет {0}', component: MarketPage },
-      { title: 'test', component: ListPage }
+      { title: 'test', component: ListPage },
     ];
   }
 
-  initializeApp() {
+  private initializeApp() {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
@@ -52,7 +54,7 @@ export class MyApp {
     });
   }
 
-  openPage(page) {
+  private openPage(page) {
     // close the menu when clicking a link from the menu
     this.menu.close();
     // navigate to the new page if it is not the current page

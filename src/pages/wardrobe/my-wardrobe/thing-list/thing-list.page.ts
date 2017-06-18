@@ -6,8 +6,7 @@ import { WardrobeAddonPage, WardrobeDraftOutfitPage } from '../../wardrobe';
 
 import { AppService } from '../../../../app/app.service';
 
-import { ICategory, ICategoryInfo } from '../../../../app/model/category';
-import { IThing } from '../../../../app/model/thing';
+import { ICategory, ICategoryInfo, IThing } from '../../../../app/model';
 
 @Component({
   selector: 'page-thing-list',

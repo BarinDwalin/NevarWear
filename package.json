@@ -1,34 +1,49 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
+  "name": "nevar-wear",
+  "version": "0.0.1",
+  "author": "BarinDwalin",
   "homepage": "http://ionicframework.com/",
+  "description": "githubionic: An Ionic project",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BarinDwalin/NevarWear.git"
+  },
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "gulp": "gulp tslint"
   },
   "dependencies": {
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/compiler-cli": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "@ionic/storage": "1.1.7",
-    "ionic-angular": "2.0.0-rc.4",
-    "ionic-native": "2.2.11",
+    "@angular/common": "4.2.3",
+    "@angular/compiler": "4.2.3",
+    "@angular/compiler-cli": "4.2.3",
+    "@angular/core": "4.2.3",
+    "@angular/forms": "4.2.3",
+    "@angular/http": "4.2.3",
+    "@angular/platform-browser": "4.2.3",
+    "@angular/platform-browser-dynamic": "4.2.3",
+    "@ionic-native/core": "3.10.2",
+    "@ionic-native/splash-screen": "3.10.2",
+    "@ionic-native/status-bar": "3.10.2",
+    "@ionic/storage": "2.0.1",
+    "ionic-angular": "3.4.2",
+    "ionic-native": "2.9.0",
     "ionicons": "3.0.0",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "0.6.26"
+    "rxjs": "5.4.1",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.12"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.47",
-    "typescript": "2.0.9"
+    "@ionic/app-scripts": "1.3.7",
+    "tslint": "^5.4.3",
+    "typescript": "2.3.4",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^8.1.1",
+    "sw-toolbox": "3.6.0"
+
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
@@ -38,6 +53,5 @@
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": [],
-  "description": "githubionic: An Ionic project"
+  "cordovaPlatforms": []
 }

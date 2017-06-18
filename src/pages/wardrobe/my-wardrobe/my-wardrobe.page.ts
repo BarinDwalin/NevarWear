@@ -3,7 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { AppService } from '../../../app/app.service';
 
-import { ICategory, ICategoryInfo } from '../../../app/model/category';
+import { ICategory, ICategoryInfo } from '../../../app/model';
 
 import { WardrobeCategoryListPage } from './category-list/category-list.page';
 

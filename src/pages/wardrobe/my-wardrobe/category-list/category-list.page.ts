@@ -6,7 +6,7 @@ import { WardrobeThingListPage } from '../my-wardrobe';
 
 import { AppService } from '../../../../app/app.service';
 
-import { ICategory, ICategoryInfo } from '../../../../app/model/category';
+import { ICategory, ICategoryInfo } from '../../../../app/model';
 
 @Component({
   selector: 'page-category-list',
