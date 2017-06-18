@@ -1,0 +1,42 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>Гардероб</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="card-background-page">
+
+  <ion-card *ngFor="let p of pages" (click)="openPage(p)">
+    <img src="{{p.img}}"/>
+    <div class="card-title">{{p.title}}</div>
+    <div class="card-subtitle" *ngIf="p.description">{{p.description}}</div>
+  </ion-card>
+
+  <!--<ion-card>
+    <img src="assets/img/wardrobe-my-wardrobe.jpg"/>
+    <div class="card-title">Мой гардероб</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/img/wardrobe-addon.jpg"/>
+    <div class="card-title">Пополнить гардероб</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/img/wardrobe-saved-outfits.jpg"/>
+    <div class="card-title">Сохраненные аутфиты</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/img/wardrobe-generate-outfit.jpg"/>
+    <div class="card-title">Подобрать аутфит</div>
+    <div class="card-subtitle">DressMeUp</div>
+  </ion-card>-->
+
+</ion-content>

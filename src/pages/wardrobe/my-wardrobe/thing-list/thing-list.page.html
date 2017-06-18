@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar><!--hideBackButton-->
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>{{selectedCategory.name}}</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar color="danger" *ngIf="handMadeMode">
+    <ion-title class="without-padding">Режим ручной сборки аутфита</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<button ion-button icon-only clear class="hanger" *ngIf="!handMadeMode" (click)="addon()">
+  <img src="assets/img/hanger.png">
+</button>
+
+<button ion-button color="dark" round class="goToOutfit" *ngIf="handMadeMode" (click)="goToOutfit()">
+  Перейти к аутфиту
+</button>
+
+<ion-content padding class="thing-list" [ngClass]="{'handMadeMode': handMadeMode}">
+  <thing-preview *ngFor="let thing of things" [thing]="thing" (addFavorite)="addFavorite($event)" (removeFavorite)="removeFavorite($event)"></thing-preview>
+</ion-content>
+
+
+
+

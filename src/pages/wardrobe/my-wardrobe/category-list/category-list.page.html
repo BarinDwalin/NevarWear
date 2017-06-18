@@ -1,0 +1,25 @@
+<ion-header>
+
+  <ion-navbar><!--hideBackButton-->
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>{{selectedCategory.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let category of categoryList"  (click)="openPage(category)">
+      <ion-thumbnail item-left>
+        <img src="{{category.img}}">
+      </ion-thumbnail>
+      <h2>{{category.name}}</h2>
+      <p *ngIf="category.countCategories">Разделов: {{category.countCategories}} </p>
+      <p *ngIf="category.countThings">Вещей: {{category.countThings}} </p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

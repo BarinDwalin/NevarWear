@@ -1,0 +1,51 @@
+.favorite-on {
+    src: "assets/img/favorite-on.png";
+}
+.favorite-off {
+    src: "assets/img/favorite-off.png";
+}
+
+.thing-list.handMadeMode .scroll-content {
+    padding: 60px 16px 16px 16px !important;
+}
+.without-padding {
+    padding: 0 !important;
+}
+
+button.hanger {
+    //margin: 0 50px 50px 0;
+    position: absolute;
+    z-index: 10;
+    right: 10vw;
+    bottom: 10vw;
+    height: 70px;
+    img {
+        height: 100%;
+    }
+}
+
+button.goToOutfit {
+    position: absolute;
+    z-index: 10;
+    right: 10vw;
+    bottom: 10vw;
+    opacity: .7;
+    border: solid 3px;
+}
+
+
+.toast-container{
+    //background-color: white;
+}
+.toast-message{
+    //color: black;
+}
+
+.toast-opacity {
+    opacity: .7;
+}
+
+.toast-right-floated{
+    //float: right;
+    //width: 200px;
+}

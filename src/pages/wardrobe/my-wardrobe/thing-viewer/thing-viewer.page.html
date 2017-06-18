@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar><!--hideBackButton-->
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>{{thing.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="thing-viewer">
+    <ion-grid>
+        <ion-row class="thing">
+            <ion-col width-20 class="buttons"> 
+                <button ion-button item-left clear icon-only (click)="like()">
+                    <ion-icon name="{{ thing.like ? 'heart' : 'heart-outline' }}" class="like" isActive="{{ thing.like }}"></ion-icon>
+                </button> 
+                <button ion-button item-left clear icon-only (click)="goToOutfit()">
+                    <ion-icon name="star" class="favorite"></ion-icon>
+                </button> 
+                <button ion-button item-left clear icon-only (click)="camera()">
+                    <ion-icon name="camera" class="camera"></ion-icon>
+                </button> 
+                <button ion-button item-left clear icon-only (click)="goToShop()">
+                    <ion-icon name="pricetags" class="shop"></ion-icon>
+                </button> 
+            </ion-col>
+
+            <ion-col>  
+                <img src="{{thing.img}}" class="image" (dblclick)="zoom()"> 
+            </ion-col>
+        </ion-row>
+        <ion-row class="tags">
+            <ion-item>
+                <ion-textarea type="text" placeholder="#супер #круче_всех #сама_няшность" value="{{thing.tags}}"></ion-textarea>
+            </ion-item>
+        </ion-row>
+    </ion-grid>
+</ion-content>
