@@ -9,7 +9,38 @@
 
 
 <ion-content class="thing-viewer">
-    <ion-grid>
+    <ion-card class="thing">
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button item-left clear icon-only (click)="like(thing)">
+                    <ion-icon name="{{ thing.like ? 'heart' : 'heart-outline' }}" class="like" isActive="{{ thing.like }}"></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button item-left clear icon-only (click)="camera()">
+                    <ion-icon name="camera" class="camera"></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button item-left clear icon-only (click)="goToShop()">
+                    <ion-icon name="pricetags" class="shop"></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button item-right clear icon-only (click)="goToOutfit()">
+                    <ion-icon name="star" class="outfit"></ion-icon>
+                </button>
+            </ion-col>
+        </ion-row>
+
+        <img src="{{thing.img}}" class="image" (dblclick)="zoom()">
+
+        <ion-card-content *ngIf="thing.tags" class="tags">
+            <p>{{thing.tags || "#добавить теги"}}</p>
+        </ion-card-content>
+    </ion-card>
+    
+    <!--<ion-grid>
         <ion-row class="thing">
             <ion-col width-20 class="buttons"> 
                 <button ion-button item-left clear icon-only (click)="like()">
@@ -35,5 +66,5 @@
                 <ion-textarea type="text" placeholder="#супер #круче_всех #сама_няшность" value="{{thing.tags}}"></ion-textarea>
             </ion-item>
         </ion-row>
-    </ion-grid>
+    </ion-grid>-->
 </ion-content>
