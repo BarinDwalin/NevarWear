@@ -14,7 +14,7 @@ export class AppService {
   constructor(private http: Http) {}
 
   public getUsers(): Promise<any[]> {
-    const url =  `${this.apiUrl}/users`;
+    const url = `${this.apiUrl}/users`;
     return this.http.get(url)
     .toPromise()
     .then((res) => res.json());
@@ -54,6 +54,9 @@ export class AppService {
     // TODO: save
   }
   public dislikeThing(thingID: number) {
+    // TODO: save
+  }
+  public saveTagsForThing(thingID: number, tags: string) {
     // TODO: save
   }
   public addThingToFavorite(thingID: number) {

@@ -10,7 +10,7 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 
-import { PAGES_COMPONENTS } from '../pages/pages';
+import { PAGES_COMPONENTS } from '../pages';
 
 import { TodoPage } from '../pages/todo/todo';
 

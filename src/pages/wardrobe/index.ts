@@ -1,7 +1,7 @@
 import { WardrobeAddonPage } from './addon/addon.page';
 import { WardrobeDraftOutfitPage } from './draft-outfit/draft-outfit.page';
 import { WardrobeGenerateOutfitPage } from './generate-outfit/generate-outfit.page';
-import { MY_WARDROBE_COMPONENTS, WardrobeMyWardrobePage } from './my-wardrobe/my-wardrobe';
+import { MY_WARDROBE_COMPONENTS, WardrobeMyWardrobePage } from './my-wardrobe';
 import { WardrobeSavedOutfitsPage } from './saved-outfits/saved-outfits.page';
 import { WardrobePage } from './wardrobe.page';
 

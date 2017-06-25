@@ -11,7 +11,7 @@ import { DressMeUpPage,
   ProfilePage,
   ShopPage,
   WardrobePage
-} from '../pages/pages';
+} from '../pages';
 
 import { ListPage } from '../pages/list/list';
 

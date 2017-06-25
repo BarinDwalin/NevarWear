@@ -1,0 +1,16 @@
+page-tag-editor {
+
+  ion-grid {
+    height: 100vh;
+  }
+
+  textarea {
+    background-color: lightgray;
+    resize: none;
+    height: 75vh;
+    width: calc(100% - 2 * 2vmax);
+    margin: 2vmax;
+    padding: 2vmax;
+    font-size: x-large;
+  }
+}

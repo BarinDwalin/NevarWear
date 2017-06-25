@@ -4,7 +4,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { AppService } from '../../../../app/app.service';
 
-import { ThingViewerPage } from '../my-wardrobe';
+import { ThingViewerPage } from '../../my-wardrobe';
 
 import { ICategory, ICategoryInfo, IThing } from '../../../../app/model';
 

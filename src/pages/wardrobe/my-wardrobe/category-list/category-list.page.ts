@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { NavController, NavParams } from 'ionic-angular';
 
-import { WardrobeThingListPage } from '../my-wardrobe';
+import { WardrobeThingListPage } from '../../my-wardrobe';
 
 import { AppService } from '../../../../app/app.service';
 

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { NavController, NavParams, Toast, ToastController } from 'ionic-angular';
 
-import { WardrobeAddonPage, WardrobeDraftOutfitPage } from '../../wardrobe';
+import { WardrobeAddonPage, WardrobeDraftOutfitPage } from '../../../wardrobe';
 
 import { AppService } from '../../../../app/app.service';
 

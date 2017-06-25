@@ -5,7 +5,7 @@ import { WardrobeAddonPage,
   WardrobeGenerateOutfitPage,
   WardrobeMyWardrobePage,
   WardrobeSavedOutfitsPage
-} from './wardrobe';
+} from '../wardrobe';
 
 @Component({
   selector: 'page-wardrobe',

@@ -1,0 +1,27 @@
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <textarea name="tags" ng-model="tags" #tagsInput>
+          {{tags}}
+        </textarea>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <button ion-button block icon-start (click)="save(tagsInput.value)">
+          <ion-icon name="star"></ion-icon>
+          Сохранить
+        </button>
+      </ion-col>
+      <ion-col col-6>
+        <button ion-button block icon-end (click)="cancel()">
+          Отмена
+          <ion-icon name="star"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </ion-content>

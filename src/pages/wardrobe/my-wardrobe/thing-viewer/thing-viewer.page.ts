@@ -5,7 +5,8 @@ import { NavController, NavParams } from 'ionic-angular';
 import { AppService } from '../../../../app/app.service';
 
 import { ShopPage } from '../../../shop/shop.page';
-import { WardrobeDraftOutfitPage } from '../../wardrobe';
+import { WardrobeDraftOutfitPage } from '../../../wardrobe';
+import { TagEditorPage } from '../../my-wardrobe';
 
 import { IThing } from '../../../../app/model';
 
@@ -55,7 +56,10 @@ export class ThingViewerPage implements OnInit {
   }
 
   // TODO: add change event/binding
-  private changeTags(value: string) {
-    this.thing.tags = value;
+  private changeTags() {
+    this.navCtrl.push(TagEditorPage, {
+      thing: this.thing,
+      tags: this.thing.tags,
+    });
   }
 }

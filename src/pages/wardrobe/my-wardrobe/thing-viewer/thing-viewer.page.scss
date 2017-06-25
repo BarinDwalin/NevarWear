@@ -1,56 +1,56 @@
 .thing-viewer {
-    height: 100vh;
+  height: 100vh;
 
-    ion-card {
-        height: 87vh;
-        border-radius: 5vmax;
-        background-color: lightgray;
+  ion-card {
+    height: 87vh;
+    border-radius: 5vmax;
+    background-color: lightgray;
 
-        ion-row {
-            height: 10vmax;
-            max-height: 10vmax;
-            min-height: 10vmax;
+    ion-row {
+      height: 10vmax;
+      max-height: 10vmax;
+      min-height: 10vmax;
 
-            ion-col {
-                padding: 0px;
-            }
-            ion-col.buttons button {
-                width: 100%;
-                //height: 25%;
-                //max-height: 25%;
-            }
+      ion-col {
+        padding: 0px;
+      }
+      ion-col.buttons button {
+        width: 100%;
+        //height: 25%;
+        //max-height: 25%;
+      }
 
-            ion-icon {
-                font-size: 10vmin;
-            }
-            ion-icon.like {
-                color: red;
-            }
-            ion-icon.outfit {
-                color: gold;
-            }
-            ion-icon.camera {
-                color: gray;
-            }
-            ion-icon.shop {
-                color: green;
-            }
+      ion-icon {
+        font-size: 10vmin;
+      }
+      ion-icon.like {
+        color: red;
+      }
+      ion-icon.outfit {
+        color: gold;
+      }
+      ion-icon.camera {
+        color: gray;
+      }
+      ion-icon.shop {
+        color: green;
+      }
 
-            .image {
-                width: 100%;
-                border-radius: 1.5rem;
-            } 
-        }
-        .image {
-            height: 67vh;
-            max-height: 67vh;
-            min-height: 67vh;
-        }
-        .tags {
-            height: 10vh;
-            min-height: 10vh;
-            max-height: 10vh;
-            overflow-y: scroll;
-        }
-    } 
+      .image {
+        width: 100%;
+        border-radius: 1.5rem;
+      } 
+    }
+    .image {
+      height: 67vh;
+      max-height: 67vh;
+      min-height: 67vh;
+    }
+    .tags {
+      height: 10vh;
+      min-height: 10vh;
+      max-height: 10vh;
+      overflow-y: scroll;
+    }
+  } 
 }
